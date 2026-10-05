@@ -6,33 +6,39 @@ Standard student housing ads along Aurora Blvd and Anonas only display the base 
 
 ---
 
-## 📍 Project Location (Desktop)
+## 🚀 Getting Started & How to Run
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/jhedrenz/DormMate.git
+cd DormMate
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+```bash
+npm run dev
+```
+
+### 4. Open in Browser
+Open your browser and visit:
 ```text
-C:\Users\Jhed Cruz\Desktop\DormMate
+http://localhost:5173/
 ```
 
 ---
 
-## 🚀 How to Run in Visual Studio Code (VS Code)
-
-### Step 1: Open in VS Code
+### 💻 Running in Visual Studio Code (VS Code)
 1. Open **VS Code**.
-2. Click **File** > **Open Folder...** (or press `Ctrl + K, Ctrl + O`).
-3. Select your Desktop folder:
-   ```text
-   C:\Users\Jhed Cruz\Desktop\DormMate
-   ```
-
-### Step 2: Open Terminal & Start Dev Server
-1. Open the integrated terminal in VS Code:
-   - Press **`Ctrl + ~`** (backtick) or go to **Terminal** > **New Terminal**.
-2. Start the development server:
+2. Click **File** > **Open Folder...** (or press `Ctrl + K, Ctrl + O`) and select the `DormMate` folder.
+3. Open the integrated terminal (`Ctrl + ~` or **Terminal** > **New Terminal**).
+4. Run:
    ```bash
    npm run dev
-   ```
-3. Hold `Ctrl` and click the link displayed in the terminal:
-   ```text
-   http://localhost:5173/
    ```
 
 ---
